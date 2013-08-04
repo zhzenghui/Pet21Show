@@ -1,0 +1,106 @@
+//
+// Prefix header for all source files of the 'Pet21Show' target in the 'Pet21Show' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+
+
+
+#define screenHeight [UIScreen mainScreen].applicationFrame.size.height
+#define screenWidth [UIScreen mainScreen].applicationFrame.size.width
+
+#define screenSize CGRectMake(0, 0, screenWidth, screenHeight)
+
+
+#define degreesToRadians(degrees) (M_PI * degrees / 180.0)
+
+
+
+#define KDidReceiveRemoteNotification @"didReceiveRemoteNotification"
+
+//user
+#define KUser_ID @"ID"
+#define Kusername @"username"
+#define Kname @"name"
+#define Kdesc @"desc"
+
+
+//message
+#define KMessage_ID @"KMessage_ID"
+#define KMessage_SendUser @"KMessage_SendUser"
+#define KMessage_ReceiverUser @"KMessage_ReceiverUser"
+#define KMessage_DateTime @"KMessage_DateTime"
+#define KMessage_Title @"KMessage_Title"
+#define KMessage_Body @"KMessage_Body"
+#define KMessage_Receiver_ID @"KMessage_Receiver_ID"
+
+
+//我的art
+#define KmessageType @"messageType"
+#define KmessageTitle @"messageTitle"
+#define KmessageCount @"messageCount"
+
+//online
+#define KonlineImage @"imageUrl"
+#define KonlineTitle @"title"
+#define KonlineDesc @"desc"
+#define KonlineRewardAmount @"RewardAmount"
+#define KonlineDate @"createDate"
+#define KonlineLastDate @"lastDate"
+#define KonlineEndDate @"endDate"
+#define KonlineTag @"artType"
+#define KonlineUser @"uid"
+#define KonlineAR @"KonlineAR"
+#define KonlineHotNum @"hotNum"
+#define KonlineJoinNum @"joinNum"
+
+
+
+
+
+//Group
+#define KgroupImage @"KgroupImage"
+#define KgroupTitle @"KgroupTitle"
+#define KgroupDesc @"KgroupDesc"
+#define KgroupPayAmount @"KgroupPayAmount"
+#define KgroupUser @"KgroupUser"
+#define KgroupDate @"KgroupDate"
+
+
+//room
+#define KroomA @"KroomA"
+#define KroomB @"KroomB"
+#define KroomPayAmount @"KroomPayAmount"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
